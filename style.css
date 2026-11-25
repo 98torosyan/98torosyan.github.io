@@ -1,0 +1,9 @@
+:root{--violet:#6A49E2;--navy:#17183A;--lav:#A891F7;--gold:#E9C46A;--paper:#F7F3EC}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--navy);font:17px/1.65 Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+header{background:var(--navy);color:#fff;padding:28px 20px}header .in,main{max-width:760px;margin:0 auto}
+header a{color:#fff;text-decoration:none}.brand{display:flex;align-items:center;gap:14px}.brand img{width:44px;height:44px;border-radius:50%}
+.brand b{display:block;font:600 20px Georgia,serif}.brand small{color:var(--lav);letter-spacing:.06em}
+main{padding:28px 20px 60px}h1{font:600 34px/1.2 Georgia,serif;margin:.2em 0 .6em}h2{font:600 21px Georgia,serif;margin:1.6em 0 .4em;color:var(--violet)}
+a{color:var(--violet)}.card{background:#fff;border-radius:18px;padding:22px 24px;box-shadow:0 10px 30px #17183a12;margin:18px 0}
+.btn{display:inline-block;background:var(--violet);color:#fff;padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:600;margin:6px 8px 0 0}
+footer{max-width:760px;margin:0 auto;padding:0 20px 40px;color:#6b6880;font-size:14px}
